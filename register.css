@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f2f2f2;
+}
+
+nav {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 0px 24px 6px rgba(0,0,0,0.2);
+}
+.site_logo {
+  margin-left: 10vw;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 50px;
+  color: #4d4d4d;
+}
+.navi {
+  margin-left: auto;
+  margin-right: 10vw;
+  font-size: 20px;
+  line-height: 50px;
+}
+.navi > a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #4d4d4d;
+  transition: 0.2s ease;
+}
+.navi > a:hover {
+  color: #9900cc;
+  border-bottom: 2px solid #9900cc;
+}
+
+.container {
+  width: 660px;
+  height: auto;
+  margin: auto;
+  margin-top: 7.5vh;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.2);
+}
+.image-box {
+  width: 330px;
+  height: inherit;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: grey;
+  background-image: url("resources/login_photo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-box > img {
+  margin: 10px;
+  width: 40px;
+}
+.register-form {
+  width: 330px;
+  height: inherit;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+}
+#section-title {
+  font-size: 32px;
+  width: 100%;
+  margin: 30px auto 20px auto;
+  text-align: center;
+}
+.input-wrapper {
+  margin: 0 40px;
+  margin-bottom: 15px;
+}
+.input-label {
+  font-size: 18px;
+  font-style: italic;
+  color: #333;
+}
+form input {
+  margin-top: 5px;
+  padding: 8px 3px;
+  width: 241px;
+  outline: none;
+  border: 1.5px solid #f2f2f2;
+  background-color: white;
+  transition: 0.2s ease-out;
+}
+form input:focus {
+  border: 1.5px solid #9900cc;
+}
+.full-name {
+  display: flex;
+}
+.f-name {
+  flex: 1;
+}
+.l-name {
+  flex: 1;
+  margin-left: 10px;
+}
+.full-name input {
+  width: 111px;
+}
+#submit {
+  margin: 15px 40px 40px 40px;
+  padding: 9px;
+  width: 250px;
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid #4d4d4d;
+  font-size: 18px;
+  cursor: pointer;
+}
+#submit:hover {
+  border: 2px solid #9900cc;
+  color: #9900cc;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f2f2f2;
+}
+
+nav {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 0px 24px 6px rgba(0,0,0,0.2);
+}
+.site_logo {
+  margin-left: 10vw;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 50px;
+  color: #4d4d4d;
+}
+.navi {
+  margin-left: auto;
+  margin-right: 10vw;
+  font-size: 20px;
+  line-height: 50px;
+}
+.navi > a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #4d4d4d;
+  transition: 0.2s ease;
+}
+.navi > a:hover {
+  color: #9900cc;
+  border-bottom: 2px solid #9900cc;
+}
+
+.frontal_image {
+  width: 50vw;
+  height: 500px;
+  margin: 55px auto 0 auto;
+  position: relative;
+  background-image: url("resources/homepage_photo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.frontal_image h1 {
+  position: absolute;
+  top: 200px;
+  left: -80px;
+  font-size: 24px;
+  background-color: white;
+  color: black;
+  line-height: 40px;
+  padding: 0 20px;
+}
+#start_button {
+  top: 280px;
+  left: -40px;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+#start_button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.divvy {
+  height: 6px;
+  width: 60px;
+  position: absolute;
+  bottom: -26px;
+  right: 0;
+  background-color: #9900cc;
+}
